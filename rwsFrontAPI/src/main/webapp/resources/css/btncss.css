@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+.firstBtn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:transparent;
+	background-color:transparent;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:19px;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.firstBtn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.firstBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.secondBtn {
+	box-shadow: 0px 0px 0px 2px #3dc21b;
+	background:transparent;
+	background-color:transparent;
+	border-radius:10px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:19px;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.secondBtn:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.secondBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.threeBtn {
+	box-shadow: 0px 0px 0px 2px #91b8b3;
+	background:transparent;
+	background-color:transparent;
+	border-radius:10px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:19px;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.threeBtn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.threeBtn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.allBtn {
+	box-shadow: 0px 0px 0px 2px #91b8b3;
+	background:transparent;
+	background-color:transparent;
+	border-radius:10px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:19px;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.allBtn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.allBtn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.base-layer {
+	box-shadow: 0px 0px 0px 2px #91b8b3;
+	background:transparent;
+	background-color:transparent;
+	border-radius:10px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:19px;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.base-layer:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.base-layer:active {
+	position:relative;
+	top:1px;
+}
+
+
+body{
+	margin: 0px;
+	max-width: 100%;
+	max-height: 100%;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	overflow: ;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+               
+ #vmap { /* 전체화면 사이즈에 맞추기 */
+	max-width: 100%;
+	max-height: 100%;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	overflow: ;
+	position: fixed;
+	right: 0;
+	top: 0;
+
+            } 
+
+#btns{
+	position: absolute; 
+	z-index:2; /*평면도에서 입체적으로 구현*/
+	width: 480px;
+	top: 10px; 
+	left: 100px; 
+	display: flex; /*  flex박스는 항상 부모 div에서 설정 */
+    flex-direction: row;  /* 정렬기준(row,col)*/    
+    justify-content: space-around; /* 가로 가운데(center는 가운데, space-between은 가로간격같게,space-around은 동일한 간격으로 배치. 아이템 사이 여백이 생김) */
+    align-items: center;  /* 세로 가운데 */
+	
+}
+
+#marker {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #088;
+	border-radius: 10px;
+	background-color: #0FF;
+	opacity: 0.5;
+}
+
+#vienna {
+	text-decoration: none;
+	color: white;
+	font-size: 11pt;
+	font-weight: bold;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.popover-body {
+	min-width: 500px;
+}
